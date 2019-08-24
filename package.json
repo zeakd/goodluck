@@ -1,0 +1,13 @@
+{
+  "name": "gyro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync -w"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {}
+}
