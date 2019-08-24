@@ -4,6 +4,10 @@
     src:url('/goodluck/fonts/goodluck02GX.ttf') format('truetype');
 }
 
+body {
+    transform:translateZ(0);
+}
+
 html, body, #root {
     position: absolute;
     width: 100%;
@@ -11,6 +15,7 @@ html, body, #root {
 }
 
 #root {
+    
     font-size: 80px;
     display: flex;
     justify-content: center;

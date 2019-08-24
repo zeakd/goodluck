@@ -48,7 +48,7 @@ function run() {
   let count;
   let sumX;
   let sumY;
-  const BUFF_COUNT = 5;
+  const BUFF_COUNT = 3;
 
   clean();
   
@@ -59,17 +59,14 @@ function run() {
 
     
     count += 1;
-    
+    sumX += x;
+    sumY += y;
+
     if (count === BUFF_COUNT) {
       setFontVariation(sumX / BUFF_COUNT, sumY / BUFF_COUNT);
       clean();
-    } else {
-      sumX += x;
-      sumY += y;
     }
-    
   })
-  
   
 }
 
