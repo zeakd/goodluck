@@ -1,18 +1,13 @@
-@import './reset.scss';
 
 @font-face{ 
     font-family:'leedo';
-    src:url('../fonts/goodluck02GX.ttf') format('truetype');
+    src:url('/goodluck/fonts/goodluck02GX.ttf') format('truetype');
 }
 
 html, body, #root {
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-body {
-    
 }
 
 #root {
@@ -25,5 +20,4 @@ body {
 #text {
     font-family: leedo;
     color: HotPink;
-    /* font-variation-settings: 'wght' 500, 'wdth' 500; */
 }
